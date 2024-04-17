@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вывод из таблицы</title>
+    <style>
+        div {
+            margin: 0 auto;
+            text-align: center;
+            width: 400px;
+            border: 2px solid black;
+            border-bottom: 5px solid black;
+            border-radius: 10px;
+        }
+        div h1 {
+            margin: 1px;
+            padding-bottom: 5px;
+            border: 2px solid black;
+        }
+        div p {
+            justify-content: center;
+            width: 340px;
+            margin-left: 18.5px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="categori">
+        {% for el in categori %}
+          <h1>{{ el.name }}</h1>
+          <p>{{ el.description }}</p>
+        {% endfor %}
+    </div>
+    {% block proizvoditel %}
+      
+    {% endblock proizvoditel %}
+</body>
+</html>

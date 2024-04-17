@@ -1,0 +1,10 @@
+{% extends "app/index.html" %}
+
+{% block proizvoditel %}
+  <div class="proizvoditel">
+    {% for el in proizvoditel %}
+      <h1>{{ el.name }}</h1>
+      <p>{{ el.description }}</p>
+    {% endfor %}
+  </div>
+{% endblock proizvoditel %}
