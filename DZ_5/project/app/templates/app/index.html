@@ -1,0 +1,32 @@
+{% extends "app/pattern.html" %}
+
+{% block title %}{{ name }}{% endblock title %}
+
+{% block body %}
+  <center>
+    <h1 style="margin-bottom: 60px;">Главная страница</h1>
+    <table>
+        <h3 style="margin-bottom: 10px;">Таблица товаров</h3>
+        <tr>
+            <th>Название</th>
+            <th>Цена</th>
+            <th>Описание</th>
+        </tr>
+        <tr>
+            <td>Priora</td>
+            <td>850.000</td>
+            <td>LADA</td>
+        </tr>
+        <tr>
+            <td>Li</td>
+            <td>9.000.000</td>
+            <td>L9</td>
+        </tr>
+        <tr>
+            <td>DODGE</td>
+            <td>5.000.000</td>
+            <td>Challenger</td>
+        </tr>
+    </table>
+  </center>
+{% endblock body %}

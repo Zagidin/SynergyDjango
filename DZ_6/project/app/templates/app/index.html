@@ -1,0 +1,31 @@
+{% extends "app/pattern.html" %}
+
+{% block title %}{{ name }}{% endblock title %}
+
+{% block style %}
+  <style>
+    h1 {
+        text-align: center;
+    }
+    h1:hover {
+        color: brown;
+    }
+
+    img {
+        margin: 20px;
+        border-radius: 50px;
+    }
+  </style>
+{% endblock style %}
+<style>
+
+</style>
+{% block body %}
+  <h1>Главная страница</h1>
+  <center>
+    <button><a href="http://127.0.0.1:8000/picture/">Вывести фото</a></button>
+  </center>
+  <center>
+    <img width="40%" src="https://gas-kvas.com/grafic/uploads/posts/2024-01/gas-kvas-com-p-sinergiya-emblema-na-prozrachnom-fone-20.png" alt="Фото главная страница">
+  </center>
+{% endblock body %}

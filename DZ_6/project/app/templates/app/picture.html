@@ -1,0 +1,32 @@
+{% extends "app/pattern.html" %}
+
+{% block title %}{{ name }}{% endblock title %}
+
+{% block style %}
+  <style>
+    h1 {
+        text-align: center;
+    }
+
+    h1:hover, a:hover {
+        color: brown;
+    }
+
+    img {
+        margin: 12px;
+        border-radius: 160px;
+    }
+  </style>
+{% endblock style %}
+<style>
+
+</style>
+{% block body %}
+  <h1>{{ name }}</h1>
+  <center>
+    <button><a href="http://127.0.0.1:8000">Вернуться на главную</a></button>
+  </center>
+  <center>
+    <img width="40%" src="https://kr-alliance.com/upload/iblock/1ae/bruz7zdt5csfxwj96rj08r79567ikle5.jpg" alt="Фото">
+  </center>
+{% endblock body %}
