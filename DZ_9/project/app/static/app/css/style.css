@@ -1,0 +1,62 @@
+body {
+    background-image: url('../img/fons.png');
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+}
+
+h1:hover {
+    color: red;
+}
+
+img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.content {
+    margin-left: 10%;
+    margin-top: 62px;
+}
+
+p {
+    width: 80%;
+}
+
+span {
+    color: rgb(226, 84, 1);
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover {
+    color: red;
+}
+
+h3 {
+    margin-top: 65px;
+}
+
+#content_two span,  #content_tree span{
+    color: rgb(255, 82, 2);
+}
+
+button {
+    border-radius: 2px 2px 10px 10px;
+    border: 2px double rgb(255, 82, 2);
+}
+
+button a {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: bold;
+}
